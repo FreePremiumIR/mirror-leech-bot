@@ -9,9 +9,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: ${{ed8322f4-6d7b-430c-929c-85e89597fdbe}}
+          heroku_app_name: ${{freepremiumirbot}}
+          heroku_email: ${{majidkarimi747@gmail.com}}
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
